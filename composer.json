@@ -1,0 +1,24 @@
+{
+    "name": "shesler/pop-it-mvc",
+    "description": "My project pop-it-mvc",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shesler"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
+
+
+}
